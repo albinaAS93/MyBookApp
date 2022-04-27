@@ -10,7 +10,7 @@ export async function getBookDescription(key) {
             let res = await fetch(`https://openlibrary.org${key}.json`);
             let data = await res.json();
 
-            let desc = _.get(data, "book-desc", "No description added for this book!");
+            let desc = _.get(data, "description", "No description added for this book!");
 
             if (desc.value) {
                 desc = desc.value;
