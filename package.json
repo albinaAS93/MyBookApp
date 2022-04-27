@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "JavaScript Advanced project, start2impact. This is my Book Finder project using Open Library API that shows books searched by a search bar.",
+  "description": "JavaScript Advanced project, start2impact. This is my Book Finder project using Open Library API that shows books searched by a search field.",
   "main": "index.js",
   "scripts": {
     "test": "\"BookApp\"",
