@@ -28,12 +28,14 @@ h1 {
 
 .book-container {
   background-color: tan;
+  border-radius: 10px;
 }
 
 .book-item {
   background-color: #523d29;
   padding: 2rem;
   margin: 0;
+  border-radius: 10px;
 }
 
 .item {
@@ -41,6 +43,7 @@ h1 {
   margin-bottom: 1rem;
   padding: 1rem 0;
   background-color: #a06c49;
+  border-radius: 10px;
 }
 
 h4 {
@@ -80,6 +83,7 @@ h6 {
   padding: 1rem 0;
   margin: 1rem;
   color: #523d29;
+  border-radius: 10px;
 }
 
 footer {
